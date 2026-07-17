@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+<servlet>
+    <servlet-name>SignupServlet</servlet-name>
+    <servlet-class>com.shopkart.SignupServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>SignupServlet</servlet-name>
+    <url-pattern>/signup</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.shopkart.LoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>com.shopkart.LogoutServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/logout</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>ProductServlet</servlet-name>
+    <servlet-class>com.shopkart.ProductServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ProductServlet</servlet-name>
+    <url-pattern>/products</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>AddToCartServlet</servlet-name>
+    <servlet-class>com.shopkart.AddToCartServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AddToCartServlet</servlet-name>
+    <url-pattern>/addToCart</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>CartServlet</servlet-name>
+    <servlet-class>com.shopkart.CartServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>CartServlet</servlet-name>
+    <url-pattern>/cart</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>RemoveFromCartServlet</servlet-name>
+    <servlet-class>com.shopkart.RemoveFromCartServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>RemoveFromCartServlet</servlet-name>
+    <url-pattern>/removeFromCart</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>CheckoutServlet</servlet-name>
+    <servlet-class>com.shopkart.CheckoutServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>CheckoutServlet</servlet-name>
+    <url-pattern>/checkout</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>OrderHistoryServlet</servlet-name>
+    <servlet-class>com.shopkart.OrderHistoryServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>OrderHistoryServlet</servlet-name>
+    <url-pattern>/orderHistory</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>AdminOrdersServlet</servlet-name>
+    <servlet-class>com.shopkart.AdminOrdersServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AdminOrdersServlet</servlet-name>
+    <url-pattern>/adminOrders</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>UpdateOrderStatusServlet</servlet-name>
+    <servlet-class>com.shopkart.UpdateOrderStatusServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>UpdateOrderStatusServlet</servlet-name>
+    <url-pattern>/updateOrderStatus</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>AdminProductsServlet</servlet-name>
+    <servlet-class>com.shopkart.AdminProductsServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AdminProductsServlet</servlet-name>
+    <url-pattern>/adminProducts</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>AddProductServlet</servlet-name>
+    <servlet-class>com.shopkart.AddProductServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AddProductServlet</servlet-name>
+    <url-pattern>/addProduct</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>DeleteProductServlet</servlet-name>
+    <servlet-class>com.shopkart.DeleteProductServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>DeleteProductServlet</servlet-name>
+    <url-pattern>/deleteProduct</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>EditProductServlet</servlet-name>
+    <servlet-class>com.shopkart.EditProductServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>EditProductServlet</servlet-name>
+    <url-pattern>/editProduct</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>UpdateProductServlet</servlet-name>
+    <servlet-class>com.shopkart.UpdateProductServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>UpdateProductServlet</servlet-name>
+    <url-pattern>/updateProduct</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>BuyNowServlet</servlet-name>
+    <servlet-class>com.shopkart.BuyNowServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>BuyNowServlet</servlet-name>
+    <url-pattern>/buyNow</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>VerifyEmailServlet</servlet-name>
+    <servlet-class>com.shopkart.VerifyEmailServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>VerifyEmailServlet</servlet-name>
+    <url-pattern>/verifyEmail</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>AddToWishlistServlet</servlet-name>
+    <servlet-class>com.shopkart.AddToWishlistServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AddToWishlistServlet</servlet-name>
+    <url-pattern>/addToWishlist</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>WishlistServlet</servlet-name>
+    <servlet-class>com.shopkart.WishlistServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>WishlistServlet</servlet-name>
+    <url-pattern>/wishlist</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>RemoveFromWishlistServlet</servlet-name>
+    <servlet-class>com.shopkart.RemoveFromWishlistServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>RemoveFromWishlistServlet</servlet-name>
+    <url-pattern>/removeFromWishlist</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>UpdateCartServlet</servlet-name>
+    <servlet-class>com.shopkart.UpdateCartServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>UpdateCartServlet</servlet-name>
+    <url-pattern>/updateCart</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>CancelOrderServlet</servlet-name>
+    <servlet-class>com.shopkart.CancelOrderServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>CancelOrderServlet</servlet-name>
+    <url-pattern>/cancelOrder</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>ProductDetailServlet</servlet-name>
+    <servlet-class>com.shopkart.ProductDetailServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ProductDetailServlet</servlet-name>
+    <url-pattern>/productDetail</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>AdminDashboardServlet</servlet-name>
+    <servlet-class>com.shopkart.AdminDashboardServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AdminDashboardServlet</servlet-name>
+    <url-pattern>/adminDashboard</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>ResetPasswordServlet</servlet-name>
+    <servlet-class>com.shopkart.ResetPasswordServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ResetPasswordServlet</servlet-name>
+    <url-pattern>/resetPassword</url-pattern>
+</servlet-mapping>
+</web-app>
