@@ -42,4 +42,12 @@ Standard Maven web application layout — `src/main/java` for Servlets, `src/mai
 Database credentials are managed through a local `db.properties` file (gitignored) and are not included in this repository. To run this project locally, create your own `src/main/resources/db.properties` file with your MySQL credentials.
 
 ---
-Built as part of B.Tech coursework, focused on practical, hands-on Java web development.
+
+<img width="1228" height="599" alt="{65F76ACD-BDAA-4D6D-8515-4BDDC650014E}" src="https://github.com/user-attachments/assets/81f86def-074b-4c12-b9a5-20d50c1ce023" />
+<img width="1351" height="572" alt="{351F650D-4B88-4467-A500-72183198E982}" src="https://github.com/user-attachments/assets/326fdc41-8263-4fa6-9bcc-ca664b2c7b7e" />
+<img width="1239" height="558" alt="{EA2489A8-F7F1-48D4-A622-F29EA703C099}" src="https://github.com/user-attachments/assets/8c0ab1c8-47cb-4cea-962d-af3b39a7f38c" />
+<img width="1164" height="577" alt="{9395EBCD-C198-4C73-8685-B082FC1F3378}" src="https://github.com/user-attachments/assets/18f07b6e-e952-4994-90b3-0e60201095c7" />
+
+
+
+
